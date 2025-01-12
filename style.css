@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.fira-sans-thin {
+    font-family: "Fira Sans", serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .fira-sans-extralight {
+    font-family: "Fira Sans", serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .fira-sans-light {
+    font-family: "Fira Sans", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .fira-sans-regular {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .fira-sans-medium {
+    font-family: "Fira Sans", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .fira-sans-semibold {
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .fira-sans-bold {
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .fira-sans-extrabold {
+    font-family: "Fira Sans", serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .fira-sans-black {
+    font-family: "Fira Sans", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .fira-sans-thin-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .fira-sans-extralight-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .fira-sans-light-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .fira-sans-regular-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .fira-sans-medium-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .fira-sans-semibold-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .fira-sans-bold-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .fira-sans-extrabold-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .fira-sans-black-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 900;
+    font-style: italic;
+}  
+
+*{
+    font-family: fira-sans-thin;
+}
+
+.body{
+    background-color: #F5F5F5;
+}
+
+
+.primary-bg{
+    background-color: #C6E4D6;
+}
+
+.all-main-title{
+    color: #0E0E0E;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.section{
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+/* Banner */
+
+.banner{
+    display: flex;
+    max-width: 1280px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    padding: 70px 50px;
+    border-radius: 10px;
+    margin-bottom: 80px;
+}
+
+/* .banner-content{
+    width: 722px;
+} */
+.banner-small-title{
+    color: #0e0e0e81;
+    font-weight: 500;
+    font-size: 24px;
+}
+.banner-title{
+    font-weight: bold;
+    font-size: 56px;
+}
+.btn-primary{
+    background-color: #006A50;
+    color: #FFFFFF;
+    padding: 17px 34px;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+/* Pillar */
+
+.pillar-cards{
+    display: flex;
+    gap: 24px;
+}
+
+.pillar-card{
+    background-color: #FFFFFF;
+    padding: 24px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+/* The Vision of Future */
+
+.vision-cards{
+    margin-top: 32px;
+    display: flex;
+    gap: 24px;
+    justify-content: space-around;
+}
+
+.vision-card-1{
+    background-color: #D2DFF5;
+    padding: 32px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.btn-vision-1{
+    background-color: #5490F5;
+    color: #FFFFFF;
+    padding: 11px 20px;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+.vision-card-2{
+    background-color: #C6E4D6;
+    padding: 32px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.btn-vision-2{
+    background-color: #09A15C;
+    color: #FFFFFF;
+    padding: 11px 20px;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+.vision-card-3{
+    background-color: #F7EBCF;
+    padding: 32px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.btn-vision-3{
+    background-color: #FFC239;
+    color: #FFFFFF;
+    padding: 11px 20px;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+.quote{
+    background-color: #FFFFFF;
+    margin-top: 32px;
+    padding: 48px 24px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.quote-description{
+    background-image: url(assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+
+.recent-card-1{
+    display: flex;
+    padding: 48px;
+    background-color: #FFFFFF;
+    margin-top: 32px;
+    border-radius: 24px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.recent-img{
+    border-radius: 24px;
+}
+
+.recent-details{
+    padding: 0px 32px;
+}
+
+.h3-title{
+    font-size: 32px;
+    font-weight: bold;
+    color: #3E3E3E;
+}
+ .btn-recent{
+    background-color: #006A50;
+    color: #FFFFFF;
+    padding: 13px 26px;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 10px;
+ }
+
+ .recent-card-2{
+    display: flex;
+    background-color: #FFFFFF;
+    margin-top: 32px;
+    padding: 48px;
+    border-radius: 24px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
